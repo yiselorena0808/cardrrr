@@ -14,10 +14,10 @@ const Mymodal:React.FC=()=>{
             <Button variant="success" onClick={openShow}>Confirmacion</Button>
        <Modal show={show} onHide={offShow}>
         <Modal.Header closeButton>
-            <Modal.Title>Confirmacion</Modal.Title>
+            <Modal.Title>Mensaje enviado</Modal.Title>
     
         </Modal.Header>
-        <Modal.Body>Eres tu?</Modal.Body>
+        <Modal.Body>gracias por confirmar</Modal.Body>
         <Modal.Footer>
             <Button variant="danger" onClick={offShow}>Aceptar</Button>
         </Modal.Footer>
